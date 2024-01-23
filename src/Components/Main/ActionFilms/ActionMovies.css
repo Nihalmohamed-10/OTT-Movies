@@ -1,0 +1,58 @@
+.ActionMoviesCards{
+    color: white; 
+}
+.ActionMoviesHeadline{
+    color: white; 
+    font-weight: 400;
+    padding: 10px;
+}
+.ActionCardDiv{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.ActionCardDiv::-webkit-scrollbar{display: none;}
+
+.ActionCards img{
+    height: 250px;  
+    padding: 10px;
+    max-height: 250px;
+    border-radius: 15px;
+}
+.ActionCards img:hover {
+    opacity: 0.8; 
+    transform: scale(1.1); 
+  }
+
+  .close a{
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 26px;
+    left: 755px;
+  }
+  @media all and (max-width:771px){
+    .close a{
+      left: 723px;
+    }
+  }
+  @media all and (max-width:641px){
+    .close a{
+      left: 594px;
+    }
+  }
+  @media all and (max-width:481px){
+    .close a{
+      left: 434px;
+    }
+  }
+  @media all and (max-width:361px){
+    .close a{
+      left: 317px;
+    }
+  }
+  @media all and (max-width:321px){
+    .close a{
+      left: 276px;
+    }
+  }

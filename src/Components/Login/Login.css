@@ -1,0 +1,97 @@
+.loginPage {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+    background-image: url(https://thefatork.store/cdn/shop/articles/netflix.jpg?v=1669877376);
+  }
+  .loginNavbar{
+    width: 130px;
+    position: absolute;
+    top: 10px;
+    left: 11px;
+  }
+  .loginNavbar img{
+    width: 100%;
+    display: block;
+  }
+  
+  .loginDiv {
+    background-color: rgba(0, 0, 0, 0.8); 
+    padding: 40px;
+    border-radius: 8px;
+    height: auto;
+    width: 340px;
+  }
+  .signupError{
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: start;
+    color: white;
+  }
+  .alreadySignup{
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: start;
+    color: white;
+  }
+  
+  h1 {
+    text-align: start;
+    color: #fbfafa;
+    font-weight: 500;
+  }
+  
+  form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #353131;
+  }
+  #text{
+    background-color: #363333; ;
+  }
+  #email{
+    background-color: #363333;
+  }
+  #password{
+    background-color: #363333;
+  }
+  
+  input {
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fbfcfd;
+    color: red;
+  }
+
+  @media all and (max-width:321px){
+    .loginDiv{
+      width: 288px;
+    }
+    input{
+      font-size: 14px;
+      padding: 13px;
+    }
+  }

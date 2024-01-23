@@ -1,0 +1,30 @@
+.footer{
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footerFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footerUl{
+    width: 200px;
+}
+.firstA{
+    color: rgb(137, 136, 136);
+    line-height: 30px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+.footerFlex a{
+    text-decoration: none;
+    color: rgb(137, 136, 136);
+    line-height: 30px;
+}
+@media all and (max-width:771px){
+    .footerUl{
+        margin-top: 10px;
+    }
+}

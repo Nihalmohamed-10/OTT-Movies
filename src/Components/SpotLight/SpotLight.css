@@ -1,0 +1,100 @@
+.SpotLight{
+    /* background-image: url('https://images5.alphacoders.com/626/626176.jpg'); */
+    background-size: cover;
+    height: 500px;
+    background-position-y: -296px;
+    color: white;
+    /* padding: 20px; */
+}
+
+.SpotContent{
+    top: 227px;
+    height: 190px;
+    position: absolute;
+    padding: 20px;
+}
+.SpotTitle{
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.spotImg{
+    position: relative;
+    
+    }
+    .spotImg img{
+        object-fit: cover;
+        width: 100%;
+        display: block;
+        height: 505px;
+    }
+    
+@media all and (max-width:1280px){
+    .SpotLight{
+        background-position-y: -212px;
+    }
+}
+@media all and (max-width:1051px){
+    .SpotLight{
+        background-position-y: -82px;
+    }
+}
+@media all and (max-width:981px){
+    .SpotLight{
+        background-position-y: -45px;
+    }
+    .SpotLightAbout{
+        width: 200px;
+    }
+   
+}
+@media all and (max-width:771px){
+    .SpotLight{
+        background-position-y: 1px;
+        background-position-x: -23px;
+    }
+    .SpotLightAbout{
+        width: 200px;
+    }
+   
+}
+@media all and (max-width:771px){
+    .SpotLight{
+        background-position-x: -90px;
+    }
+}
+@media all and (max-width:641px){
+    .SpotLight{
+        height: 500px;
+        background-position-x: -2px;
+    }
+    .SpotLight img{
+        height: 450px;
+    }
+    .SpotContent{
+        padding-top:0px;
+    }
+}
+@media all and (max-width:481px){
+    .SpotLight{
+        background-position-x: -12px;
+    }
+}
+@media all and (max-width:361px){
+    .SpotLight{
+        background-position-x: -77px;
+        height: 283px;
+    }
+    .SpotContent{
+        padding-top: 0px;
+    }
+    .spotImg img{
+        height: 288px;
+    }
+}
+@media all and (max-width:321px){
+    .spotImg img{
+        height: 281px;
+    }
+}
+
