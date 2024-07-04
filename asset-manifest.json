@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ott-react/static/css/main.d219daa8.css",
+    "main.js": "/ott-react/static/js/main.acd8b02a.js",
+    "static/js/787.a108a004.chunk.js": "/ott-react/static/js/787.a108a004.chunk.js",
+    "index.html": "/ott-react/index.html",
+    "main.d219daa8.css.map": "/ott-react/static/css/main.d219daa8.css.map",
+    "main.acd8b02a.js.map": "/ott-react/static/js/main.acd8b02a.js.map",
+    "787.a108a004.chunk.js.map": "/ott-react/static/js/787.a108a004.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d219daa8.css",
+    "static/js/main.acd8b02a.js"
+  ]
+}
